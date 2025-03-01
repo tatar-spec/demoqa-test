@@ -25,11 +25,9 @@ public class TestBoxTest {
         $("#currentAddress").setValue("Some Address 1");
         $("#permanentAddress").setValue("Another street 1");
         $("#submit").click();
-
         $("#output #name").shouldHave(text("Alex"));
         $("#output #email").shouldHave(text("test@gmail.com"));
         $("#output #currentAddress").shouldHave(text("Some Address 1"));
         $("#output #permanentAddress").shouldHave(text("Another street 1"));
     }
-
 }
