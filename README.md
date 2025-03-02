@@ -33,7 +33,7 @@ This project ensures a smooth user experience by automating form filling, valida
 
 ```
 
-git clone https://github.com/your-username/demoqa-test.git
+git clone https://github.com/tatar-spec/demoqa-test.git
 cd demoqa-test
 
 ```
